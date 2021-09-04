@@ -12,6 +12,12 @@ let snakeArr = [
 ]
 food = {x: 2, y: 1};
 
+var Frame=window.innerWidth;
+if(Frame>=1250)
+alert('Use Arrow Key To Play The Game')
+console.log(Frame)
+
+
 // Game functions
 function main(ctime){
     window.requestAnimationFrame(main);

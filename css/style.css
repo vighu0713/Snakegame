@@ -5,7 +5,7 @@
 .body{
     min-height: 100vh;
     background-size: 100vw 100vh;
-    background: url("../SnakeGame/img/bg.jpg");
+    background: url("../img/bg.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
     display: flex;
@@ -40,14 +40,33 @@
 #scoreBox{
     position: absolute;
     top: 30vh;
-    left: 40vh;
-    font-size: large;
+    left: 8vw;
+    font-size: 30px;
     font-weight: bold;
 }
 #hiscoreBox{
     position: absolute;
     top: 20vh;
-    left: 40vh;
-    font-size: large;
+    left: 5vw;
+    font-size: 35px;
     font-weight: bold;
+}
+
+
+/* ------------------------------responsive---------------------------------------- */
+
+@media screen and (max-width:1250px) {
+    .body{
+        display: none;
+    }
+    .responsive{
+        display: flex;
+align-items: center;
+justify-content: center;
+height: 97vh;
+font-size: 2rem;
+padding: 10px;
+overflow: hidden;
+background: #e6cfe7;
+    }
 }
