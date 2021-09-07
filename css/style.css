@@ -51,7 +51,9 @@
     font-size: 35px;
     font-weight: bold;
 }
-
+.responsive{
+    display: none;
+}
 
 /* ------------------------------responsive---------------------------------------- */
 
@@ -60,6 +62,7 @@
         display: none;
     }
     .responsive{
+        display: block;
         display: flex;
 align-items: center;
 justify-content: center;
